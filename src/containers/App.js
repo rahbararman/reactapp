@@ -29,7 +29,7 @@ class App extends React.Component {
 		});
 		return (
 			<div>
-				<h1>Robo Friendsssssss</h1>
+				<h1>Robo Friends</h1>
 				<SearchBox onSearch={this.onSearchChange}/>
 				<Cardlist robots={filteredRobots}/>
 			</div>
